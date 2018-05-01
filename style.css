@@ -1,0 +1,165 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+  background: #f1f1f1;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 150px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#slide { top:0; height:300px; width:200px; }
+#slide img { display:inline; }
+h3 {
+  font-size: 30px;
+}
+body {
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+.container {
+  width: 95%;
+  
+	margin: 0 auto;
+}
+/* Giving our navbar some padding and a background color */
+/********.navbar1 {
+  padding: 7px;
+  background:white;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}*********/
+/*nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}*/
+/******nav a {
+  color: #444;
+  text-decoration: none;
+  font-size: 14px;
+}******/
+ /*Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+/******.navbar1 li {
+  display: inline;
+  padding: 18px;
+  margin-right: 1px;
+  margin-left: 1px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+li a:hover {
+  background-color: rgb(231, 222, 222);
+}*****/
+
+.lefty{
+  background:  #63c9c0;
+  display: inline-block;
+}
+/***.lat{
+  font-size: 35px;
+  float: left;
+  background:  #70d3c2;
+  color: #444;
+  height: 50px;
+  width: 180 px;
+}***/
+/*li .goRight{
+  /*display: inline-block;
+  float:right;
+}*/
+h3{
+  font-size: 20px;
+}
+figure {
+  float: left;
+}
+/* Getting rid of the default link styles here */
+/****.navbar1 li a {
+  color: #000;
+  text-decoration: none;
+}******/
+
+/* Styling the header, giving it a height, a background color, and some top padding */
+.header {
+  height: 200px;
+  padding-top: 20px;
+  background: #cdcdcd;
+}
+
+/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+.header h1 {
+  padding: 60px;
+  margin: 0;
+  color: #000;
+  text-align: center;
+}
+
+/* Giving the .post element margin on 3 sides */
+.post {
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+}
+.feature{
+  background-color: white;
+  margin-top: 120px;
+  width: 680px;
+  height: 200 px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  color: #444;
+  float:left;
+}
+.feature1{
+  background-color: white;
+  margin-top: 120px;
+  padding: 7px;
+  /*height: 500px;*/
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  color: #444;
+  float:left;
+}
+.side{
+  float:right;
+  background-color: white;
+  margin-right: 0px;
+  width: 340px;
+  margin-top: 120px;
+  
+}
+main{
+  margin-top: 150 px;
+}
+#main_img{
+  float:left;
+}
+

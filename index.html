@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Analysis</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="nav2.css">
+  <!--<link rel="stylesheet" href="reset.css">-->
+
+</head>
+
+<body>
+    <header>
+
+        <a href="index.html" id="logo">Weather Analysis</a>
+        
+        <nav>
+        
+        <a href="#" id="menu-icon"></a>
+        
+        <ul>
+        
+        <!--<li><a href="#" class="current">Home</a></li>-->
+        
+        <li >
+          
+            <div class="dropdown">
+                <button class="dropbtn">Plot</button>
+                <div class="dropdown-content">
+                  <a href="visualization_page1.html">temperature</a>
+                  <a href="visualization_page2.html">humidity</a>
+                  <a href="visualization_page3.html">cloudiness</a>
+                  <a href="visualization_page4.html">wind speed</a>
+                </div>
+              </div>
+        </li>
+        <li><a href="comparison_bootstrap.html">comparison</a></li>
+        <li><a href="data_bootstrap.html">data</a></li>
+        
+        </ul>
+        
+        </nav>
+        
+        </header>
+        
+   
+  <div class="container">
+
+    <main>
+      
+    <div class="feature">
+        
+          <!--<article class="post">-->
+              <h3>Web Visualization Project:</h3>
+              
+              <section>
+                <figure>
+                  <img index="main_img" src="output_data/Fig1.png" alt="fig1" width="300" height="200">
+                </figure>
+                <p>The purpose of this project is to analyze how weather changes as you get closer to the equator.
+                  To accomplish this analysis, we pulled data from  the OpenWeatherMap API to assemble a dataset for over 500
+                  cities of the world.
+                </p>
+                <p>We then used Matplotlib to plot various aspects of weather vs. latitude. The aspects of weather we looked at 
+                  were: temperature, humidity, cloudiness and wind speed. This site provides the source data and visualizations created as a part 
+                  of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                </p>
+                <p>
+                  The data has been used from cities.csv which has been converted to HTML table format. All this data can be viewed by clicking the 
+                  'data' link above. The various plots can be seen by clicking on the drop down menu under 'Plot'. There's also
+                  a comparison page where you can see a comparison of all of the plots and you can view that page by clicking the 'comparision'
+                  menu option above. This website has been built using bootstrap functionality and the navigation bar on top of each page is
+                  responsive using the media queries.
+                  
+              </p>
+              <p>In addition to the drop down menu, one can navigate to the desired plot visualization page by clicking on 
+                the thumbnails on the right side of this page.
+              </p>
+            </section>
+            <!--</article>-->
+    </div>
+    <div class="side">
+        <div class="gallery">
+            <a  href="visualization_page1.html">
+              <img target="_blank" src="output_data/Fig1.png" alt="fig1" width="200" height="350">
+            </a>
+            <div class="desc">latitude vs temperature</div>
+          </div>
+          
+          <div class="gallery">
+            <a  href="visualization_page2.html">
+              <img target="_blank" src="output_data/Fig2.png" alt="fig2" width="200" height="350">
+            </a>
+            <div class="desc">latitude vs. humidity</div>
+          </div>
+          
+          <div class="gallery">
+            <a  href="visualization_page3.html">
+              <img target="_blank" src="output_data/Fig3.png" alt="fig3" width="200" height="350">
+            </a>
+            <div class="desc">latitude vs. cloudiness</div>
+          </div>
+          
+          <div class="gallery">
+            <a  href="visualization_page4.html">
+              <img target="_blank" src="output_data/Fig4.png" alt="fig4" width="200" height="350">
+            </a>
+            <div class="desc">latitude vs. wind speed</div>
+          </div>
+
+    </div>
+    </main>
+  </div>
+
+</body>
+
+</html>

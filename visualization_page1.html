@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Analysis</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="nav2.css">
+  <!--<link rel="stylesheet" href="reset.css">-->
+
+</head>
+
+<body>
+        <header>
+
+                <a href="index.html" id="logo">Weather Analysis</a>
+                
+                <nav>
+                
+                <a href="#" id="menu-icon"></a>
+                
+                <ul>
+                
+                <!--<li><a href="#" class="current">Home</a></li>-->
+                
+                <li >
+                  
+                    <div class="dropdown">
+                        <button class="dropbtn">Plot</button>
+                        <div class="dropdown-content">
+                                <a href="visualization_page1.html">temperature</a>
+                                <a href="visualization_page2.html">humidity</a>
+                                <a href="visualization_page3.html">cloudiness</a>
+                                <a href="visualization_page4.html">wind speed</a>
+                        </div>
+                      </div>
+                </li>
+                <li><a href="comparison_bootstrap.html">comparison</a></li>
+                <li><a href="data_bootstrap.html">data</a></li>
+                
+                </ul>
+                
+                </nav>
+                
+                </header>
+  <div class="container">
+
+    <main>
+      
+    <div class="feature1">
+        
+          <!--<article class="post">-->
+              <h3>Scatter plot for latitude vs temperature</h3>
+              
+              <section>
+                <figure>
+                  <img index="main_img" src="output_data/Fig1.png" alt="fig1" width="300" height="200">
+                </figure>
+                <p>This is a scatter plot showing the temperature trends of various cities depending on whether they lie on a higher
+                    or lower latitude. It is clear that the temperatures are much higher closer to or on equator. As the cities move 
+                    away from equator, the temperatures start showing a downward pattern.
+              </p>
+            </section>
+            <!--</article>-->
+    </div>
+    
+    </main>
+  </div>
+
+</body>
+
+</html>
