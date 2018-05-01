@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization Dashboard</title>
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!--<link rel="stylesheet" href="reset.css">-->
+
+</head>
+
+<body>
+
+    <div class="container">   
+    
+    <nav class="navbar">
+     <div ><a class="lat" href="index.html">Latitude</a></div>
+      <ul>
+        
+        <li class="goRight" >
+          
+            <div class="dropdown">
+                <button class="dropbtn">Plot</button>
+                <div class="dropdown-content">
+                  <a href="visualization_page1.html">cloudiness</a>
+                  <a href="visualization_page2.html">temperature</a>
+                  <a href="visualization_page3.html">humidity</a>
+                  <a href="visualization_page4.html">wind speed</a>
+                </div>
+              </div>
+        </li>
+        <li class="goRight" >
+                <a href="comparison.html">comparison</a>
+              </li>
+              <li class="goRight">
+                <a href="data.html">data</a>
+              </li>
+      </ul>
+    </nav>
+
+    <main>
+      
+    <div class="feature1">
+          <!-- First Row -->
+    <div class="row">
+
+            <!-- First (and only column) -->
+            <div class="col-md-6">
+                    <img target="_blank" src="../output_data/Fig1.png" alt="fig1" >
+                  </div>
+            
+                  <!-- Second of two columns -->
+                  <div class="col-md-6">
+                    <img target="_blank" src="../output_data/Fig2.png" alt="fig1" >
+            </div>
+          </div>
+      
+          <!-- Second Row -->
+          <div class="row">
+      
+            <!-- First of two columns -->
+            <div class="col-md-6">
+                    <img target="_blank" src="../output_data/Fig3.png" alt="fig1">
+            </div>
+      
+            <!-- Second of two columns -->
+            <div class="col-md-6">
+                    <img target="_blank" src="../output_data/Fig4.png" alt="fig1" >
+            </div>
+          </div>
+    </div>
+    
+    </main>
+  </div>
+
+</body>
+
+</html>
